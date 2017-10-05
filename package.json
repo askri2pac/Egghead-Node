@@ -1,0 +1,31 @@
+{
+  "name": "todolistapp",
+  "version": "1.0.0",
+  "description": "it is new todolist for me !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askri2pac/Egghead-Node.git"
+  },
+  "keywords": [
+    "RESTFUL",
+    "API",
+    "NODE"
+  ],
+  "author": "Nassim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askri2pac/Egghead-Node/issues"
+  },
+  "homepage": "https://github.com/askri2pac/Egghead-Node#readme",
+  "dependencies": {
+    "express": "^4.16.1"  
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
