@@ -1,7 +1,7 @@
 let mongoose = require('mongoose')
 let schema = mongoose.Schema
 
-let taskSchema = new Schema({
+let taskSchema = new schema({
     name : {
       type :String,
       required: 'enter the name of the task'
