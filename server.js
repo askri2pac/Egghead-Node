@@ -8,7 +8,7 @@ let port = 8000;
 app.use(bodyParser.urlencoded({ extended: true }));
 mongoClient.connect(db.url, (err, database) => {
   if (err) return console.log(err);
-  require("./app/routes/note_routes")(app, {});
+  require("./app/routes/note_routes")(app, database);
 
   app.listen(port, () => {
     console.log("here we are on port ! " + port);
