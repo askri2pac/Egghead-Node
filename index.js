@@ -10,6 +10,8 @@ const config = require("./config"),
  * initialize server
  */
 
+ const a =1;
+
 const server = restify.createServer({
   name: config.name,
   version: config.version
