@@ -1,19 +1,19 @@
 {
-  "name": "egghead-node",
+  "name": "rest-api",
   "version": "1.0.0",
-  "description": "simple egghead tutorial",
+  "description": "\"\"",
   "main": "index.js",
   "scripts": {
-    "test": "npm start",
-    "dev": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/askri2pac/Egghead-Node.git"
   },
   "keywords": [
-    "node",
-    "api"
+    "rest",
+    "api",
+    "mongo"
   ],
   "author": "nassim",
   "license": "ISC",
@@ -22,11 +22,7 @@
   },
   "homepage": "https://github.com/askri2pac/Egghead-Node#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "mongodb": "^2.2.33"
-  },
-  "devDependencies": {
-    "nodemon": "^1.12.1"
+    "mongodb": "^2.2.33",
+    "restify": "^6.2.0"
   }
 }
